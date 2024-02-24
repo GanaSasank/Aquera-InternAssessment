@@ -1,0 +1,66 @@
+/* src/app/app.component.css */
+
+body {
+  font-family: 'Calibri', sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #3498db;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar-title {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.planet-card {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  width: 70%;
+  box-sizing: border-box;
+  transition: transform 0.3s;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.planet-card:hover {
+  transform: scale(1.05);
+}
+
+.planet-card h2 {
+  margin-top: 0;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin-top: 20px;
+  padding: 20px
+}
+
+.pagination-controls button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.pagination-controls span {
+  font-weight: bold;
+  align-self: center;
+}
+.note{
+  align-content: center;
+  margin: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

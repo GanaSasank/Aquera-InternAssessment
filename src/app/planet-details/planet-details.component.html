@@ -1,0 +1,17 @@
+<p>planet-details works!</p>
+<!-- src/app/planet-details/planet-details.component.html -->
+
+<div class="container">
+  <div *ngIf="selectedPlanet">
+    <h2>{{ selectedPlanet.name }} Details</h2>
+    <p><strong>Climate:</strong> {{ selectedPlanet.climate }}</p>
+    <p><strong>Population:</strong> {{ selectedPlanet.population }}</p>
+    <p><strong>Terrain:</strong> {{ selectedPlanet.terrain }}</p>
+    <p><strong>Rotation Period:</strong> {{ selectedPlanet.rotation_period }}</p>
+    <p><strong>Orbital Period:</strong> {{ selectedPlanet.orbital_period }}</p>
+    <p><strong>Gravity:</strong> {{ selectedPlanet.gravity }}</p>
+    <p><strong>Surface Water:</strong> {{ selectedPlanet.surface_water }}</p>
+  </div>
+</div>
+  
+  

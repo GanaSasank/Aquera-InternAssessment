@@ -1,0 +1,11 @@
+/* src/app/planet-details/planet-details.component.css */
+
+.planet-details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+  }
+  
